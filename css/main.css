@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  font-family: "Open Sans";
   line-height: 1.5;
 }
 
@@ -13,8 +14,13 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  background-color: #ccc;
+}
+
 section {
-  margin: 1.5rem;
+  padding-top: .6rem;
 }
 
 h2 {
@@ -24,10 +30,43 @@ h2 {
 img {
   display: block;
   width: 100%;
-  max-width: 10%;
+  max-width: 5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  padding: .5rem;
+}
+
+p {
+  margin: 0;
+  max-width: 24rem;
+}
+
+h3, h4 {
+  margin: 0;
+}
+
+hgroup {
+  max-width: 16rem;
+}
+
+a {
+  padding: .6rem;
+  background-color: #444;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #000;
 }
