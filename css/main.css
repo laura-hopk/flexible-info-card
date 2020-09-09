@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -20,11 +20,13 @@ body {
 }
 
 section {
-  padding-top: .6rem;
+  padding-top: 2rem;
 }
 
 h2 {
   text-align: center;
+  margin: 0;
+  padding-bottom: .6rem;
 }
 
 img {
@@ -37,14 +39,16 @@ ul {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  padding: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0;
 }
 
 li {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: .5rem;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 p {
